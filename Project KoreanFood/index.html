@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SE Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+        <section class="flex">
+            <a href="#" class="logo"><i class="fas fa-utensils"></i>SE Resto</a>
+            <nav class="navbar">
+                <a class="active"href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#cart-info" class="fas fa-shopping-cart" id="cart-icon"></a>
+            </div>
+        </section>
+</header>
+<!--Search Section-->
+<form action="" id="search-form">
+        <input type="text" placeholder="Search here ..." id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-xmark" id="close"></i>
+</form>
+<!--Home Section-->
+<div class="container">
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our specail dish</span>
+                        <h3>Korean Noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem vero, architecto velit laudantium accusantium dolore incidunt temporibus voluptatum dolorum?
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://www.recipetineats.com/wp-content/uploads/2023/07/Japchae-Korean-noodles_9.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our specail dish</span>
+                        <h3>BBQ Korean Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem vero, architecto velit laudantium accusantium dolore incidunt temporibus voluptatum dolorum? 
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Korean-Chicken-1-750x750.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our specail dish</span>
+                        <h3>Tokbokki</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem vero, architecto velit laudantium accusantium dolore incidunt temporibus voluptatum dolorum? 
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://chefatulya.com/wp-content/uploads/2021/07/tteokbokki_1-copy.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!--Menu Section-->
+<div class="container">
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Our Menu</h3>
+        <h1 class="heading">today's speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.recipetineats.com/wp-content/uploads/2023/07/Japchae-Korean-noodles_9.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Korean Noodles</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">120 ฿</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Korean-Chicken-1-750x750.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BBQ Korean Chicken</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">189 ฿</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://chefatulya.com/wp-content/uploads/2021/07/tteokbokki_1-copy.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Tokbokki</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">149 ฿</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.marionskitchen.com/wp-content/uploads/2021/08/20201208_Express-Kimchi-5-1024x1024-1.jpeg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>kimchi</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">89 ฿</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://thecozyapron.com/wp-content/uploads/2015/06/korean-bbq-burger_thecozyapron_06-26-15_1.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Korean BBQ Burger</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">110 ฿</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://nourishedkitchen.com/wp-content/uploads/2014/05/koreanseafoodvegstew-1-660x829.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>gochugaru</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">222 ฿</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.koreanbapsang.com/wp-content/uploads/2014/03/DSC5897-2.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Kimchi soup</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">145 ฿</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://s.isanook.com/wo/0/ud/32/162469/f.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bibimbap</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">179 ฿ </span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://i.pinimg.com/736x/fa/68/70/fa6870228c4eaf69d6a7052c9583c5d9.jpg" />
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bossam </h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">200 ฿</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!--card Section-->
+<div class="continer" id="cart-info">
+    <h2>Cart</h2>
+    <div id="cart">
+        <p>No items in cart.</p>
+    </div>
+</div>
+
+<!--Footer Section-->
+<div class="continer">
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Location</h3>
+                <a href="#">thai</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+                <a href="#">china</a>
+                <a href="#">korea</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#">012-345-6789</a>
+                <a href="#">Korean-Food@gmail.com</a>
+                <a href="#">Nakhon Pathom, Thailand</a>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instragram</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <div class="credit"> Chayatip Netkeaw <span> SE NPRU </span></div>
+    </section>
+</div>
+<!--Loader Section-->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
